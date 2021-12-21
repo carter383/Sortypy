@@ -1,0 +1,57 @@
+{
+
+  "Rules":{
+
+      "Rule-1":{
+        "Rule_name": "",
+        "Active": true,
+        "Destination" : "",
+        "Replace": false,
+        "Rename": false,
+        "Rule_Type": "extention",
+        "Rule_Params": [".docx",".txt"],
+        "Rule_exec": "Move"
+
+
+      }, 
+       "Rule-2":{
+        "Rule_name": "",
+        "Active": true,
+        "Destination" : "",
+        "Replace": false,
+        "Rename": false,
+        "Rule_Type": "extention",
+        "Rule_Params": [".png",".jpg"],
+        "Rule_exec": "Move"
+
+
+      }
+    },
+    "Priority_Rules":{
+      "Rule-p-1":{
+        "Rule_name": "",
+        "Active": true,
+        "Destination" : "",
+        "Replace": false,
+        "Rename": false,
+        "Rule_Type": "exact",
+        "Rule_Params": ["test1.docx","test3.docx"],
+        "Rule_exec": "Move"
+      },
+      "Rule-p-2":{
+        "Rule_name": "",
+        "Active": true,
+        "Destination" : "",
+        "Replace": false,
+        "Rename": false,
+        "Rule_Type": "partial",
+        "Rule_Params": ["",""],
+        "Rule_exec": "Move"
+      }
+
+
+      }
+
+
+  
+}
