@@ -118,7 +118,8 @@ reboot
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+edit config.json 
+and add the source folder directory
 
 edit Rules.json and add as many rules as you like
 
