@@ -3,25 +3,99 @@
   "Rules":{
 
       "Rule-1":{
-        "Rule_name": "",
+        "Rule_name": "Documents",
         "Active": true,
         "Destination" : "",
         "Replace": false,
-        "Rename": false,
+        "Rename": true,
         "Rule_Type": "extention",
-        "Rule_Params": [".docx",".txt"],
+        "Rule_Params": [".docx",".txt",".rtf"],
         "Rule_exec": "Move"
 
 
       }, 
        "Rule-2":{
-        "Rule_name": "",
+        "Rule_name": "PDF",
+        "Active": true,
+        "Destination" : "",
+        "Replace": true,
+        "Rename": false,
+        "Rule_Type": "extention",
+        "Rule_Params": [".pdf"],
+        "Rule_exec": "Move"
+
+
+      },
+      "Rule-3":{
+        "Rule_name": "Pictures",
         "Active": true,
         "Destination" : "",
         "Replace": false,
+        "Rename": true,
+        "Rule_Type": "extention",
+        "Rule_Params": [".jpg",".png"],
+        "Rule_exec": "Move"
+
+
+      },
+      "Rule-4":{
+        "Rule_name": "Stl",
+        "Active": true,
+        "Destination" : "",
+        "Replace": true,
         "Rename": false,
         "Rule_Type": "extention",
-        "Rule_Params": [".png",".jpg"],
+        "Rule_Params": [".stl"],
+        "Rule_exec": "Move"
+
+
+      }, 
+       "Rule-5":{
+        "Rule_name": "gcode",
+        "Active": true,
+        "Destination" : "",
+        "Replace": true,
+        "Rename": false,
+        "Rule_Type": "extention",
+        "Rule_Params": [".gcode"],
+        "Rule_exec": "Move"
+
+
+      },
+      
+      "Rule-6":{
+        "Rule_name": "Compressed",
+        "Active": true,
+        "Destination" : "",
+        "Replace": false,
+        "Rename": true,
+        "Rule_Type": "extention",
+        "Rule_Params": [".zip",".rar",".tar",".tar.gz"],
+        "Rule_exec": "Move"
+
+
+      }, 
+       "Rule-7":{
+        "Rule_name": "Videos",
+        "Active": true,
+        "Destination" : "",
+        "Replace": true,
+        "Rename": false,
+        "Rule_Type": "extention",
+        "Rule_Params": [".mp4"],
+        "Rule_exec": "Move"
+
+
+      },
+      
+      "Rule-8":{
+        "Rule_name": "Documents",
+        "Active": true,
+        "Destination" : "",
+        "Replace": false,
+        "Rename": true,
+        "Rule_Type": "extention",
+        "Rule_Params": [".xlsx",".cvs"],
         "Rule_exec": "Move"
 
 
@@ -30,26 +104,15 @@
     "Priority_Rules":{
       "Rule-p-1":{
         "Rule_name": "",
-        "Active": true,
+        "Active": false,
         "Destination" : "",
         "Replace": false,
         "Rename": false,
         "Rule_Type": "exact",
         "Rule_Params": ["test1.docx","test3.docx"],
         "Rule_exec": "Move"
-      },
-      "Rule-p-2":{
-        "Rule_name": "",
-        "Active": true,
-        "Destination" : "",
-        "Replace": false,
-        "Rename": false,
-        "Rule_Type": "partial",
-        "Rule_Params": ["",""],
-        "Rule_exec": "Move"
       }
-
-
+    
       }
 
 
