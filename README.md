@@ -107,7 +107,7 @@ crontab -e
 ```
 **add the following replacing <Directory_of_sortypy> with the location of the project files**
 ```sh
-@reboot python3 <Directory_of_Sortypy>/sortypy.py >> <Directory_of_Sortypy>/cron.log 2<1&
+@reboot python3 <Directory_of_Sortypy>/sortypy.py >> <Directory_of_Sortypy>/cron.log 2>&1
 ```
 
 reboot
