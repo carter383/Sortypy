@@ -202,7 +202,7 @@ VET: 0x9D8f1f2d5DEC1d29846E13c795f3134cd7d566E4
 
 BNB: bnb1xnaeu4q0rwa3v8420qwvrkqa6mjcdwvylvkuj2
 
-Paypal Donation: [paypal.me/3DCarter383](Paypal.me/3DCarter383)
+Paypal Donation: [https://www.paypal.me/3DCarter383](https://www.Paypal.me/3DCarter383)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
