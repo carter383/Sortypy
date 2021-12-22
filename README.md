@@ -31,7 +31,7 @@
 <h3 align="center">SortyPy</h3>
 
   <p align="center">
-    Python Automated file orgaziner 
+    Python Automated file organizer 
     <br />
     <a href="https://github.com/carter383/Sortypy"><strong>Explore the docs »</strong></a>
     <br />
@@ -131,13 +131,13 @@ Rule-1 Rule-2 Rule-3 etc
 
 "Active": true,      true or false to turn on or off the rule
 
-"Destination" : "",  The destiantion for the sorted files
+"Destination" : "",  The destination for the sorted files
 
-"Replace": false,    true or false to overwite files if they already exist in the destination directory
+"Replace": false,    true or false to overwrite files if they already exist in the destination directory
 
 "Rename": false,     true or false to add a incremental counter to the end of the file name example_1.txt example_2.txt
 
-"Rule_Type": "extention",   extention, partial, exact extention matches the extention partail looks for a parcial string in the file name exact looks for an exact file name 
+"Rule_Type": "extension",   extension, partial, exact extension matches the extention partial looks for a partial string in the file name exact looks for an exact file name 
 
 "Rule_Params": [".docx",".txt",".rtf"], 
 
@@ -194,6 +194,7 @@ Project Link: [https://github.com/carter383/Sortypy](https://github.com/carter38
 
 <!-- DONATE -->
 ## Donate
+
 BTC: bc1qtj0u6x3t724zzucdqznspc6jl3yectstazfc28
 
 ETH: 0xd8aCdeAf6C627D9441017965E06FdaD12Fede17f
@@ -207,21 +208,3 @@ Paypal Donation: [https://www.paypal.me/3DCarter383](https://www.Paypal.me/3DCar
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
