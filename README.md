@@ -96,9 +96,21 @@ Python
 ### Prerequisites
 
 
+```sh
+python3 -m pip install watchdog
+python3 -m pip install pytest-shutils
+```
 ### Installation
 
+```sh
+crontab -e
+```
+**add the following replacing <Directory_of_sortypy> with the location of the project files**
+```sh
+@reboot python3 <Directory_of_Sortypy>/sortpy.py >> <Directory_of_Sortypy>/cron.log 2<1&
+```
 
+reboot
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -106,6 +118,32 @@ Python
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+
+edit Rules.json and add as many rules as you like
+
+Rule-p-1 Rule-p-2 Rule-p-3 etc run before 
+
+Rule-1 Rule-2 Rule-3 etc 
+
+
+
+"Active": true,      true or false to turn on or off the rule
+
+"Destination" : "",  The destiantion for the sorted files
+
+"Replace": false,    true or false to overwite files if they already exist in the destination directory
+
+"Rename": false,     true or false to add a incremental counter to the end of the file name example_1.txt example_2.txt
+
+"Rule_Type": "extention",   extention, partial, exact extention matches the extention partail looks for a parcial string in the file name exact looks for an exact file name 
+
+"Rule_Params": [".docx",".txt",".rtf"], 
+
+"Rule_exec": "Move" move, copy to move file or copy it 
+
+
+
 
 
 
