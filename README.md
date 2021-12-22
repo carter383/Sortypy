@@ -33,14 +33,14 @@
   <p align="center">
     Python Automated file orgaziner 
     <br />
-    <a href="https://github.com/arter383/Sortypy"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/carter383/Sortypy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/arter383/Sortypy">View Demo</a>
+    <a href="https://github.com/carter383/Sortypy">View Demo</a>
     ·
-    <a href="https://github.com/arter383/Sortypy/issues">Report Bug</a>
+    <a href="https://github.com/carter383/Sortypy/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arter383/Sortypy/issues">Request Feature</a>
+    <a href="https://github.com/carter383/Sortypy/issues">Request Feature</a>
   </p>
 </div>
 
