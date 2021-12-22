@@ -67,7 +67,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#donate">Donate</a></li>
   </ol>
 </details>
 
@@ -192,14 +192,18 @@ Project Link: [https://github.com/carter383/Sortypy](https://github.com/carter38
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- DONATE -->
+## Donate
+BTC: bc1qtj0u6x3t724zzucdqznspc6jl3yectstazfc28
 
-* []()
-* []()
-* []()
+ETH: 0xd8aCdeAf6C627D9441017965E06FdaD12Fede17f
+
+VET: 0x9D8f1f2d5DEC1d29846E13c795f3134cd7d566E4
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 
 
